@@ -1,0 +1,15 @@
+.nosotros {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .nosotrosBox {
+        padding: 30px 15px 30px 20px;
+        background: linear-gradient(#fac545, #f4a52e);
+        width: 100%;
+    }
+    h5 {
+        color: #000000;
+    }
+}

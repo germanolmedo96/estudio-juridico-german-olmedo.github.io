@@ -1,0 +1,75 @@
+@mixin bannerStyle {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBanner {
+    background-color: #ffffff;
+    @include bannerStyle();
+    img {
+        width: 100%;
+    }
+}
+
+.footerBanner {
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    @include bannerStyle();
+    img {
+        width: 100%;
+    }
+}
+
+/* MEDIA QUERIES */
+
+/* Small */
+
+@media (min-width: 576px) {
+    .headerBanner, .footerBanner {
+        img {
+            width: 550px;
+        }
+    }
+}
+
+/* Medium */
+
+@media (min-width: 768px) {
+    .headerBanner, .footerBanner {
+        img {
+            width: 600px;
+        }
+    }
+}
+
+/* Large */
+
+@media (min-width: 992px) {
+    .headerBanner, .footerBanner {
+        img {
+            width: 650px;
+        }
+    }
+}
+
+/* Extra Large */
+
+@media (min-width: 1200px) {
+    .headerBanner, .footerBanner {
+        img {
+            width: 700px;
+        }
+    }
+}
+
+/* Extra Extra Large */
+
+@media (min-width: 1400px) {
+    .headerBanner, .footerBanner {
+        img {
+            width: 750px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.servicios {
+    padding-top: 10px;
+    .serviciosBox1 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-align: center;
+        background-color: #000000;
+        
+        h3 {
+            color: #ffffff;
+            padding-top: 7px;
+        }
+    }
+    .serviciosBox2 {
+        padding-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background: linear-gradient(#fac545, #f4a52e);
+        h4 {
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-right: 10px;
+            color: #000000;
+        }
+        h6 {
+            padding-left: 15px;
+            padding-bottom: 20px;
+            padding-right: 10px;
+            color: #000000;
+        }
+    }
+}

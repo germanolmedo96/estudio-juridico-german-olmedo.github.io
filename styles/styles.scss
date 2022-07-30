@@ -1,0 +1,23 @@
+@import "banner";
+@import "navbar";
+@import "socialmedia";
+@import "tipographies";
+@import "index";
+@import "nosotros";
+@import "servicios";
+@import "integrantes";
+
+.footerGlobal {
+    background-color: #000000;
+}
+
+.personalBorder {
+    margin-top: 10px;
+    height: 10px;
+    border-top: 1px solid #f4a52e;
+}
+
+.anotherBorder {
+    height: 10px;
+    border-bottom: 1px solid #f4a52e;
+}

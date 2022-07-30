@@ -1,0 +1,136 @@
+.navbarList {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13px;
+    border-bottom: 1px solid #f4a52e;
+    border-top: 1px solid #f4a52e;
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 25px;
+        li {
+            padding: 10px;
+            a {
+                font: {
+                    size: 12px;
+                    family: Arial, Helvetica, sans-serif;
+                    weight: bold;
+                }
+                text-decoration: none;
+                color: #000000;
+                transition: 0.1s;
+                &:hover {
+                    color: #f4a52e;
+                }
+            }
+        }
+    }
+}
+
+/* MEDIA QUERIES */
+
+/* Small */
+
+@media (min-width: 576px) {
+    .navbarList {
+        height: 55px;
+        padding-top: 14px;
+        ul {
+            padding-right: 24px;
+            li {
+                padding: 12px;
+                a {
+                    font: {
+                        size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium */
+
+@media (min-width: 768px) {
+    .navbarList {
+        height: 60px;
+        padding-top: 15px;
+        ul {
+            padding-right: 23px;
+            li {
+                padding: 14px;
+                a {
+                    font: {
+                        size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Large */
+
+@media (min-width: 992px) {
+    .navbarList {
+        height: 65px;
+        padding-top: 16px;
+        ul {
+            padding-right: 22px;
+            li {
+                padding: 16px;
+                a {
+                    font: {
+                        size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Extra Large */
+
+@media (min-width: 1200px) {
+    .navbarList {
+        height: 70px;
+        padding-top: 17px;
+        ul {
+            padding-right: 21px;
+            li {
+                padding: 18px;
+                a {
+                    font: {
+                        size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Extra Extra Large */
+
+@media (min-width: 1400px) {
+    .navbarList {
+        height: 75px;
+        padding-top: 18px;
+        ul {
+            padding-right: 20px;
+            li {
+                padding: 20px;
+                a {
+                    font: {
+                        size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
